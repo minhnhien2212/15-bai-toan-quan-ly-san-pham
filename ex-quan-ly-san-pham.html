@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Management Website</title>
+</head>
+<body>
+    <h1>Product Management Website</h1>
+    <div class="addProduct">
+        <form>
+            <h2>Add New Product</h2>
+                <input id="inputNewProduct" type="text" placeholder="New Product">
+            <button id="addNewProduct" type="button" onclick="addProduct()" value="Add">Add</button><br><br>
+        </form>
+    </div>
+    <div class="displayProduct">
+        <h2>Display All Products</h2>
+        <span id="productAmount" style="text-align: right; "></span> Product(s)
+        <table id="allProducts" style="width: 600px; height: 100px;">
+            <tr>
+                <th style="text-align: left;">Product name</th>
+            </tr>
+        </table>
+        <script src="js/ex-quan-ly-san-pham.js"></script>
+    </div>
+
+</body>
+</html>
